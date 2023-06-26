@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulario Registro</title>
+  <style>
+    * {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('fondo.jpg');
+}
+
+.form-register {
+  width: 400px;
+  background: red;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  font-family: 'calibri';
+  color: green;
+  
+}
+
+.form-register h4 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.controls {
+  width: 100%;
+  background: violet;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 20px solid yellowgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.form-register p {
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+  </style>
+</head>
+<a name="top"></a>
+<body>
+  <section class="form-register">
+    <h4>Formulario de Registro</h4>
+
+    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+    <a href="exito.html">
+    <input class="botons" type="submit" value="Registrar">
+    </a>
+    <a href="http://127.0.0.1:5500/formulario2/indexa.html">
+      <input class="botons" type="reset" value="borrar">
+      </a>
+    <p><a href="#">¿Ya tengo Cuenta?</a></p>
+  </section>
+</body>
+<a href="#top">Back to Top</a>
+</html>
